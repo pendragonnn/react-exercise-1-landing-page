@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/logo.png'
 import { Menu, X } from "lucide-react"
 import { useState } from 'react'
-import { navItems } from '../constant'
+import { navItems } from '../constant/index'
 
 export default function Navbar() {
 	const [mobileDrawerOpen, setMobileDrawer] = useState(false)
