@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../assets/logo.png'
 import { Menu, X } from "lucide-react"
 import { useState } from 'react'
+import { navItems } from '../constant'
 
 export default function Navbar() {
 	const [mobileDrawerOpen, setMobileDrawer] = useState(false)
@@ -10,12 +11,6 @@ export default function Navbar() {
 		setMobileDrawer(!mobileDrawerOpen)
 	}
 
-	const navItems = [
-		{ label: "Features", href: "#" },
-		{ label: "Workflow", href: "#" },
-		{ label: "Pricing", href: "#" },
-		{ label: "Testimobials", href: "#" },
-	]
 	return (
 		<nav className="sticky top-0 z-50 z-50 py-3 backdrop-blur-lg border border-neutral-700/80">
 			<div className="container px-4 mx-auto relative text-sm">
