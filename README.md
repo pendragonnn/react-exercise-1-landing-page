@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # link
-virtual-ir-landing-page.vercel.app
+[Click here](virtual-ir-landing-page.vercel.app) 
 
 # How to
 - clone this repository
